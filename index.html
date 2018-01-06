@@ -244,25 +244,18 @@
             </h3>
             
             <div id="genexp">
-             
-             <div class= "info">
-              
-              <p> <strong>Student Staff- </strong> Lentz Dining Hall, SIUC <br/>
-              Fall 2015 - Spring 2016
-              </p>
-              <ul>
-                <li> Restocked food supplies and refill beverages on dialy basis </li>
-                <li> cooked pizzas and sandwiches</li>
-                <li> Described many items to student</li>
-              </ul>
-              
-              </div>
-              
-              <div id="addStuffHere">
 
-              </div>
               <script>
                   var WorkExperiences = [
+                    {
+                    title: "Student Staff",
+                    employer: "Lentz Dining Hall, SIUC",
+                    periodWorked: "Fall 2015 - Spring 2016",
+                    descriptions: [
+                      "Restocked food supplies and refill beverages on dialy basis",
+                      "cooked pizzas and sandwiches",
+                      "Described many items to student"]
+                    },
                     {
                     title: "Laboratory Technician",
                     employer: "Information Technology, SIUC",
@@ -281,9 +274,19 @@
                       "organized and kept record of delivery"
                       ]
                     },
+                    {
+                    title: "Cook",
+                    employer: "Radio Maria, Champaign, IL",
+                    periodWorked: "Summer 2012 and Summer 2013",
+                    descriptions: [
+                      "clean and organized kitchen",
+                      "painted wall",
+                      "prepared foood for customers"
+                      ]
+                    }
                   ];
 
-                  var addStuffHere = $("#addStuffHere");
+                  var addStuffHere = $("#genexp");
                     
                   for(var index = 0; index < WorkExperiences.length; ++index)
                   {
@@ -291,7 +294,7 @@
                     var divClassInfo = "<div class= 'info' >"
                     var titleAndEmployerHtml = '\
                     <p>\
-                    <strong>' + experience.title + '</strong> \
+                    <strong>' + experience.title + ':</strong> \
                    ' + experience.employer + ' <br/> \
                     ' + experience.periodWorked + ' \
                     </p>'
@@ -313,24 +316,7 @@
 
 
                 </script>
-              
-              <div class= "info">
-              
-              
-              
-              <p>
-              <strong> Cook- </strong> Radio Maria, Champaign, IL <br/>
-              Summer 2012 and Summer 2013
-              </p>
-              <ul>
-                <li> clean and organized kitchen </li>
-                <li> prepared foood for customers</li>
-              </ul>
-              
-               </div> 
-                
-                
-                
+         
                 </div>
                 
           </li> 
