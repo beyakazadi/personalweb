@@ -20,6 +20,7 @@
   
 	<script>
 		// this is a comment
+    var 
 	</script>
   
      <div id="me">
@@ -243,44 +244,10 @@
             </h3>
             
             <div id="genexp">
-            
-            <div class= "info">
-            
-            
-              <p>
-              <strong> Laboratory Technician-</strong> Information Technology, SIUC <br/>
-              Spring 2017
-              </p>
-              <ul>
-                <li> Assisted student and teacher with electronic problems</li>
-                <li> Organized and maintained a clean lab environment </li>
-              </ul>
-             
-             
-             </div>
-             
-             <div class= "info">
-             
-             
-             <p>
-              <strong>General Labor- </strong>Brushwork by Tom Inc. Republic, MO <br/>
-              Summer 2016
-              </p>
-              <ul>
-                <li> Installed drywall, sink, vanity, and furnature </li>
-                <li> painted wall </li>
-                <li> organized and kept record of delivery </li>
-              </ul>
-              
-                </div>
-              
-             
              
              <div class= "info">
               
-              <p>
-             
-             <strong>Student Staff- </strong> Lentz Dining Hall, SIUC <br/>
+              <p> <strong>Student Staff- </strong> Lentz Dining Hall, SIUC <br/>
               Fall 2015 - Spring 2016
               </p>
               <ul>
@@ -289,22 +256,63 @@
                 <li> Described many items to student</li>
               </ul>
               
-              </div> 
-              
-              
-              <div class= "info" >
-             
-             <p>
-              <strong>Sale Associates-</strong> Habitat for Humanity, Champaign, IL <br/>
-              Summer 2015
-              </p>
-              <ul>
-                <li> Delivered products to customers'houses </li>
-                <li> Moved and carried equipments and furnatures</li>
-                <li> Greeted customers and answered customers' questions</li>
-              </ul>
-              
               </div>
+              
+              <div id="addStuffHere">
+
+              </div>
+              <script>
+                  var WorkExperiences = [
+                    {
+                    title: "Laboratory Technician",
+                    employer: "Information Technology, SIUC",
+                    periodWorked: "Spring 2017",
+                    descriptions: [
+                      "Assisted student and teacher with electronic problems",
+                      "Organized and maintained a clean lab environment"]
+                    },
+                    {
+                    title: "General Labor",
+                    employer: "Brushwork by Tom Inc. Republic, MO",
+                    periodWorked: "Summer 2016",
+                    descriptions: [
+                      "Installed drywall, sink, vanity, and furnature",
+                      "painted wall",
+                      "organized and kept record of delivery"
+                      ]
+                    },
+                  ];
+
+                  var addStuffHere = $("#addStuffHere");
+                    
+                  for(var index = 0; index < WorkExperiences.length; ++index)
+                  {
+                    var experience = WorkExperiences[index];
+                    var divClassInfo = "<div class= 'info' >"
+                    var titleAndEmployerHtml = '\
+                    <p>\
+                    <strong>' + experience.title + '</strong> \
+                   ' + experience.employer + ' <br/> \
+                    ' + experience.periodWorked + ' \
+                    </p>'
+                   
+                   var descriptionsHtml = '<ul>';
+
+                    for(var index1= 0; index1< experience.descriptions.length; ++index1)
+                    {
+                        var description = experience.descriptions[index1];
+
+                        descriptionsHtml += '<li>' + description + '</li>'
+                    }
+
+                    descriptionsHtml += '</ul>';
+
+                    divClassInfo = divClassInfo + titleAndEmployerHtml + descriptionsHtml;
+                    addStuffHere.append(divClassInfo);
+                  }
+
+
+                </script>
               
               <div class= "info">
               
