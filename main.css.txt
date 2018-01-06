@@ -1,0 +1,178 @@
+body {background-color: #E5F1F3}
+
+
+#me{ display: grid;
+     grid-template-rows: 100%;
+     grid-template-columns: 100%;
+     grid-gap: 1px;
+     background-color: white;}
+     
+#container1 {
+     display: inline-block; 
+     position: center;
+      }
+      
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+   }
+   
+ .fa div {display: table-cell;
+          padding: 10px;}
+    
+ .fa-facebook {
+  background: #3B5998;
+  color: white;}
+  
+ .fa-linkedin {
+  background: #007bb5;
+  color: white;
+ }
+  
+ 
+      
+img, #text {display: inline-block;
+            margin: 25px 25px;}
+
+#text {vertical-align: top;}
+
+#text table {display: inline-block;
+             padding: 10px;}
+
+#text td { padding: 10px;}
+
+#pdf { text-align: left;
+       border: 1px;
+       margin: 25px;
+       line-length: 1em}
+       
+
+            
+       
+
+
+
+      
+.head {color:#08276E;
+        text-align: center;
+        font-size: 25px;
+        }    
+      
+#mainlist { list-style-type: none;
+           }
+
+
+#links {display: grid;
+              grid-template-rows: 1fr ;
+              grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+              grid-gap: 20px;}
+              
+#links div{background-color: #3CC7FA;
+           
+           border: 2px solid black;
+           text-align: center;
+           }
+
+
+#education {
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 20px;
+            }
+            
+#education div {
+                  background-color: white;
+                 padding: 5px; }
+
+#proexp {display: grid; 
+         grid-template-rows: 1fr;
+         grid-template-columns: 1fr 1fr;
+         grid-column-gap: 20px
+        }
+        
+#proexp div {background-color: white;
+            padding: 5px;
+            }
+            
+#genexp {display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        }
+        
+
+#genexp div {background-color: white;
+            padding: 5xp;
+            }
+#skills {display:grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        }
+        
+#skills div{
+            padding: 5px;}
+      
+      
+#software {display:grid;
+          grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
+          grid-template-columns: 1fr;
+          grid-gap: 20px;}
+          
+#software div{background-color: white;
+              padding: 5px;}
+              
+
+ #language { display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr;
+            grid-gap: 25px;} 
+            
+#language div{ background-color: white;
+            padding: 5px;}
+            
+            
+#involvement {display: grid;
+              grid-template-rows: 1fr 1fr 1fr;
+              grid-template-columns: 1fr 1fr;
+              grid-gap: 15px;}
+              
+#involvement div{background-color: white;
+                  padding: 15px;}
+     
+     
+#award {display: grid;
+              grid-template-rows: 1fr 1fr 1fr 1fr;
+              grid-template-columns: 1fr 1fr;
+              grid-gap: 15px;}
+              
+#award div{background-color: white;
+           padding: 5px;}
+           
+           
+#vol {display: grid;
+              grid-template-rows: 1fr 1fr ;
+              grid-template-columns: 1fr 1fr;
+              grid-gap: 15px;}
+              
+#vol div{background-color: white;
+                  padding: 5px;}
+                 
+
+                  
+                  
+              
+      
+      
+ 
+         
+
+      
+    
+  
+              

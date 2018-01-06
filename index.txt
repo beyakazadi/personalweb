@@ -1,0 +1,500 @@
+ 
+  
+<!doctype html>
+<html>
+    <head>
+      <title> Beya Kazadi </title>
+      <link rel="stylesheet" type= "text/css" href= "main.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+  
+  <body>
+     <div id="me">
+     
+    
+     <div id= "container1">
+      
+        <img src="P1.jpg"/width = 200 px height= 250 px>
+        
+        
+      <div id= "text">
+      
+        <h1>
+          <strong>Beya Kazadi, EIT</strong>
+       </h1>
+       <table>
+         <tr> 
+           <td> Age </td>
+           <td> 24 </td>
+         </tr>
+         <tr> 
+           <td> Adress </td>
+           <td> Florrisant, MO 63033 </td>
+         </tr>
+         <tr> 
+           <td> Email </td>
+           <td> <a href="mailto:bkazadi1@gmail.com"> bkazadi1@gmail.com</a> </td>
+         </tr>
+         
+       </table>
+     
+     
+       <table>
+         <tr> 
+           <td> Phone </td>
+           <td> 217- 550- 7568 </td>
+         </tr>
+         <tr> 
+           <td> website </td>
+           <td> beyakazadi.com </td>
+         </tr>
+         <tr> 
+           <td> Nationality </td>
+           <td> USA permanent resident </td>
+         </tr>
+         
+       </table>
+      
+      </div>     
+      
+    </div>
+    
+    
+    <div id= "pdf">
+    
+        <a href= "resume.pdf">DOWNLOAD RESUME</a> 
+      
+     </div>
+     
+     
+    <div class= "fa" id="soc">
+    
+     <div >
+     
+      <a href="https://www.facebook.com/enoch.kazadi.9" class="fa fa-facebook"></a>
+      
+      </div>
+      
+      <div >
+      <a href="https://www.linkedin.com/in/beya-kazadi-614baaa9/" class="fa fa-linkedin"></a>
+      
+      <div >
+      
+    </div> 
+    
+     </div>
+  
+  
+    <div id="links">
+    
+    
+      <div>
+      <a href= "#education"> EDUCATION</a>
+      </div>
+      
+       <div>
+      <a href="#engineering experience"> ENGINEERING EXPERIENCE </a>
+      </div>
+  
+      <div>
+       <a href= "#work experience"> WORK EXPIENCE</a>
+      </div>
+      
+      
+      
+       <div>
+        <a href= "#skill"> SKILL</a>
+      </div>
+      
+      
+      <div>
+        <a href= "#leadership and involvement">INVOLMENT</a>
+      </div>
+      
+      
+      <div>
+        <a href= "#award & certification">AWARD </a>
+      </div>
+       
+      
+      <div>
+       <a href= "#volunteering experience"> VOLUNTEERING </a>
+    </div> 
+   
+      </div>
+    
+     
+     
+   
+   <ul id="mainlist">
+    
+    
+    <div>
+     
+          <l1> 
+            <h3 class="head">  <a name= "education "></a>
+            EDUCATION
+            </h3>
+           <div id="education">
+           
+             <div class= "info">
+              <p>
+             <strong> Southern Illinois University,</strong> Carbondale, IL<br/>
+             Master of Engineering in <strong> Geotechnical Engineering, </strong> August 2017 <br/> 
+             Overall GPA: <strong> 3.60 </strong>/4.0
+            </p>
+            </div>
+           
+           <div class= "info">
+            
+              <p>
+               <strong> Southern Illinois University,</strong> Carbondale, IL<br/>
+             Batchelor of Science in <strong> Civil Engineering, </strong> May 2016 <br/>
+             Overall GPA: <strong> 3.65</strong>/4.0 <br/>
+               </p>
+             
+            </div>
+            
+            </div>
+            
+            
+          </l1> 
+    </div>  
+    
+    <div>
+    
+          <li> 
+            <h3 class="head"> <a name= "engineering experience"> </a>
+          CIVIL ENGINEERING EXPERIENCE
+            </h3>
+            
+            
+            <div id="proexp">
+            
+           
+            <div class= "info">
+            
+         
+            <p>
+             <strong> Civil Designer -</strong> Hanson Professional Services Inc. St. Louis MO <br/>
+             May 2017- Present
+            </p>
+            <ul>
+              <li> Designed foundation for power line sub-station</li>
+              <li> Design foundation for bridges</li>
+              <li> Site inspection during construction</li>
+              <li> Dam safety inspections</li>
+            </ul>
+            
+            </div>
+            
+            <div class= "info">
+            
+            
+            
+            <p>
+            <strong>Externship - </strong> Hanson Professional Services Inc. Springfield, IL <br/>
+            spring 2017
+            </p>
+            <ul>
+              <li> Used GIS to determine the direction of water flow based on contour elevation</li>
+              <li> Determine the flow velocity of water into basins</li>
+              <li> Used CIViL 3D to determine the height of objects obstructing pilot's view ruing takeoff and landing
+              </li>
+              <li> Inspected a dam for signs of erosion, visited drill site </li>
+            </ul>
+            
+            </div>
+            
+           </div> 
+            
+          </li>
+          
+          
+          
+      </div>
+         
+      
+      
+       <div>
+       
+    
+         <li> 
+            <h3 class= "head"> <a name="work experience"> </a>
+            WORK EXPERIENCE
+            </h3>
+            
+            <div id="genexp">
+            
+            <div class= "info">
+            
+            
+              <p>
+              <strong> Laboratory Technician</strong>- Information Technology, SIUC <br/>
+              Spring 2017
+              </p>
+              <ul>
+                <li> Assisted student and teacher with electronic problems</li>
+                <li> Organized and maintained a clean lab environment </li>
+              </ul>
+             
+             
+             </div>
+             
+             <div class= "info">
+             
+             
+             <p>
+              <strong>General Labor- </strong>Brushwork by Tom Inc. Republic, MO <br/>
+              Summer 2016
+              </p>
+              <ul>
+                <li> Installed drywall, sink, vanity, and furnature </li>
+                <li> painted wall </li>
+                <li> organized and kept record of delivery </li>
+              </ul>
+              
+                </div>
+              
+             
+             
+             <div class= "info">
+              
+              <p>
+             
+             <strong>Student Staff- </strong>Lentz Dining Hall, SIUC <br/>
+              Fall 2015 - Spring 2016
+              </p>
+              <ul>
+                <li> Restocked food supplies and refill beverages on dialy basis </li>
+                <li> cooked pizzas and sandwiches</li>
+                <li> Described many items to student</li>
+              </ul>
+              
+              </div> 
+              
+              
+              <div class= "info" >
+             
+             <p>
+              <strong>Sale Associates- </strong>Habitat for Humanity, Champaign, IL <br/>
+              Summer 2015
+              </p>
+              <ul>
+                <li> Delivered products to customers'houses </li>
+                <li> Moved and carried equipments and furnatures</li>
+                <li> Greeted customers and answered customers' questions</li>
+              </ul>
+              
+              </div>
+              
+              <div class= "info">
+              
+              
+              
+              <p>
+              <strong> Cook- </strong> Radio Maria, Champaign, IL <br/>
+              Summer 2012 and Summer 2013
+              </p>
+              <ul>
+                <li> clean and organized kitchen </li>
+                <li> prepared foood for customers</li>
+              </ul>
+              
+               </div> 
+                
+                
+                
+                </div>
+                
+          </li> 
+        </div>
+        
+        
+        <div>
+        
+        
+          <li>
+            <h3 class= "head"> <a name="skill"> </a>
+              SKILL
+            </h3>
+            
+            
+      <div id="skills">
+      
+           
+       <div id= "software">
+            
+            
+            <div class= "info">
+            AutoCAD Revit  Civil 3D
+            </div>
+            
+            <div class= "info" >
+            MATLAB
+            </div>
+            
+            <div class= "info">
+            GIS
+            </div>
+            
+            <div class= "info">
+            Gint
+            </div>
+            
+            <div class= "info">
+          GeoStudio (Slope, Seepage)
+            </div>
+            
+            <div class= "info">
+           Ensoft (Lpile, Group, PYwall)
+            </div>
+            
+        </div>
+            
+        <div id= "language">
+            
+            <div class= "info">
+           English (Fluent)
+            </div>
+            
+            
+              <div class= "info">
+           French (First Language)
+            </div>
+            
+            <div class= "info">
+           Lingala (First Language)
+            </div>
+            
+            
+            <div class= "info">
+           Spanish (Two Years of Study)
+            </div>
+            
+         </div>
+         
+       </div>
+            
+           
+            
+          </li> 
+       </div>
+         
+         
+       <div>
+       
+      
+         <li> 
+            <h3 class="head"> <a name = "leadership and involvement"> </a>       
+            LEADERSHIP AND INVOLVEMENT
+            </h3>
+            
+            <div id="involvement">
+            
+              <div class= "info">
+              National Society of Black Engineers (NSBE)
+              </div>
+              
+              <div class= "info">
+              American Society of Civil Engineers (ASCE)
+              </div>
+              
+              <div class= "info">
+              Alpha Lambda Delta
+              </div>
+              
+                <div class= "info">
+             University Honors program, Southern Illinois University, Carbondale, IL
+              </div>
+              
+              
+               <div class= "info">
+              Golden Key International Honour Society Member
+              </div>
+              
+              <div class= "info" >
+               ASCE Steel Bridge Team (1st place Mid-Continent Conference)
+              </div>
+              
+              
+         
+            
+            
+            </div>
+            
+          </li> 
+       </div>  
+        
+        
+        
+      <div>
+      
+      
+        <li> 
+            <h3 class= "head"> <a name= "award & certification"> </a>
+            AWARD & CERTIFICATION
+            </h3>
+            
+            
+         <div id= "award">
+         
+         
+              <div class= "info">
+              Deans List, Southern Illinois University<br/> Spring 2012, 2013, 2014
+              </div>
+              
+              <div class= "info">
+              National Language Arts Award <br/>  
+              </div>
+              
+              
+              <div class= "info">
+               American Scholar At large Award <br> May 2009
+              </div>
+              
+              <div class= "info">
+               	NCCA National Minority Leadership Award 	<br/>		 May 2009
+              </div>
+              
+               <div class= "info" >
+               PC Repair and Maintenance Certificate, Lewis and Clark College
+              </div>      
+            
+         </div>
+            
+            </li>
+        </div> 
+        
+        
+        
+       <div>
+       
+      
+        <li> 
+          <h3 class= "head"> <a name= "volunteering experience"></a>
+          VOLUNTEERING EXPERIENCE
+          </h3>
+          
+          <div id= "vol">
+          
+          
+          <div class= "info">
+          Field Control System Operator, First Tech Challenge
+          </div>
+          
+          </div>
+         </li>
+       </div> 
+  
+  
+  </ul>
+    
+    
+      
+  
+  </body>
+  
+  
+  
+</html>
